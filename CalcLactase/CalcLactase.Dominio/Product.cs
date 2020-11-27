@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CalcLactase
+namespace CalcLactase.Dominio
 {
-    public class Produto
+    public class Product
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
@@ -12,17 +12,17 @@ namespace CalcLactase
         public double Grams { get; set; }
         public double PercentagemOfLactose { get; set; }
         public string ImageUrl { get; set; }
-        public IEnumerable<References> References { get; set; }
+        public IEnumerable<Reference> References { get; set; }
 
-        public Produto(
-            Guid id, 
-            string name, 
-            string displayUnit, 
+        public Product(
+            Guid id,
+            string name,
+            string displayUnit,
             double displayUnitValue,
-            double grams, 
-            double percentagemOfLactose, 
-            string imageUrl, 
-            IEnumerable<References> references)
+            double grams,
+            double percentagemOfLactose,
+            string imageUrl,
+            IEnumerable<Reference> references)
         {
             Id = id;
             Name = name;

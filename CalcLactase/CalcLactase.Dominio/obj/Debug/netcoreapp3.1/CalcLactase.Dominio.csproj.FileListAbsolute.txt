@@ -1,0 +1,12 @@
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\bin\Debug\netcoreapp3.1\CalcLactase.Dominio.exe
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\bin\Debug\netcoreapp3.1\CalcLactase.Dominio.deps.json
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\bin\Debug\netcoreapp3.1\CalcLactase.Dominio.runtimeconfig.json
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\bin\Debug\netcoreapp3.1\CalcLactase.Dominio.runtimeconfig.dev.json
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\bin\Debug\netcoreapp3.1\CalcLactase.Dominio.dll
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\bin\Debug\netcoreapp3.1\CalcLactase.Dominio.pdb
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\obj\Debug\netcoreapp3.1\CalcLactase.Dominio.AssemblyInfoInputs.cache
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\obj\Debug\netcoreapp3.1\CalcLactase.Dominio.AssemblyInfo.cs
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\obj\Debug\netcoreapp3.1\CalcLactase.Dominio.csproj.CoreCompileInputs.cache
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\obj\Debug\netcoreapp3.1\CalcLactase.Dominio.dll
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\obj\Debug\netcoreapp3.1\CalcLactase.Dominio.pdb
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\obj\Debug\netcoreapp3.1\CalcLactase.Dominio.genruntimeconfig.cache

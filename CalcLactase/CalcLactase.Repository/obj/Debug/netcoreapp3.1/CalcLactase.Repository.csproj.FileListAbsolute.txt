@@ -1,0 +1,3 @@
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\obj\Debug\netcoreapp3.1\CalcLactase.Repository.AssemblyInfoInputs.cache
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\obj\Debug\netcoreapp3.1\CalcLactase.Repository.AssemblyInfo.cs
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\obj\Debug\netcoreapp3.1\CalcLactase.Repository.csproj.CoreCompileInputs.cache

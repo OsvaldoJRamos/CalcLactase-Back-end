@@ -1,11 +1,67 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "CalcLactase.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CalcLactase.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalcLactase.Domain.dll": {}
+        }
+      },
+      "CalcLactase.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CalcLactase.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CalcLactase.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalcLactase.Repository.dll": {}
+        }
+      },
+      "CalcLactase.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CalcLactase.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CalcLactase.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalcLactase.Service.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CalcLactase.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CalcLactase.Dominio/CalcLactase.Domain.csproj",
+      "msbuildProject": "../CalcLactase.Dominio/CalcLactase.Domain.csproj"
+    },
+    "CalcLactase.Repository/1.0.0": {
+      "type": "project",
+      "path": "../CalcLactase.Repository/CalcLactase.Repository.csproj",
+      "msbuildProject": "../CalcLactase.Repository/CalcLactase.Repository.csproj"
+    },
+    "CalcLactase.Service/1.0.0": {
+      "type": "project",
+      "path": "../CalcLactase.Service/CalcLactase.Service.csproj",
+      "msbuildProject": "../CalcLactase.Service/CalcLactase.Service.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CalcLactase.Domain >= 1.0.0",
+      "CalcLactase.Service >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\osval\\.nuget\\packages\\": {},
@@ -39,7 +95,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Repositorios\\Lactose\\CalcLactase-Back-end\\CalcLactase\\CalcLactase.Dominio\\CalcLactase.Domain.csproj": {
+              "projectPath": "D:\\Repositorios\\Lactose\\CalcLactase-Back-end\\CalcLactase\\CalcLactase.Dominio\\CalcLactase.Domain.csproj"
+            },
+            "D:\\Repositorios\\Lactose\\CalcLactase-Back-end\\CalcLactase\\CalcLactase.Service\\CalcLactase.Service.csproj": {
+              "projectPath": "D:\\Repositorios\\Lactose\\CalcLactase-Back-end\\CalcLactase\\CalcLactase.Service\\CalcLactase.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,50 +1,43 @@
-﻿using System;
+﻿using CalcLactase.Dominio;
+using System;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
-namespace CalcLactase.Controllers
+namespace CalcLactase.Repository
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class ProdutoController : ControllerBase
+    public class ProductRepository : IProductRepository
     {
-        public ProdutoController()
+        public async Task<IEnumerable<Product>> GetAllProducts()
         {
-
-        }
-
-        [HttpGet]
-        public IEnumerable<Produto> Get()
-        {
-            var retorno = new List<Produto>()
+            var retorno = new List<Product>()
             {
-                new Produto(Guid.NewGuid(),
+                new Product(Guid.NewGuid(),
                             "Leite de vaca integral",
                             "ml",
                             100,
                             104,
                             0.046,
                             "../assets/images/products/milk.jpg",
-                            new List<References>()
+                            new List<Reference>()
                             {
-                                new References("Valores Lactase",
+                                new Reference("Valores Lactase",
                                                "http://dx.doi.org/10.1590/S0104-42302010000200025"),
-                                new References("Peso Leite",
+                                new Reference("Peso Leite",
                                                "https://conversor-de-medidas.com/"),
                             }),
 
-                new Produto(Guid.NewGuid(),
+                new Product(Guid.NewGuid(),
                            "Leite em pó",
                            "g",
                            100,
                            100,
                            0.529,
                            "../assets/images/products/powdered-milk.jpg",
-                           new List<References>()
+                           new List<Reference>()
                            {
-                               new References("Valores Lactase",
+                               new Reference("Valores Lactase",
                                               "http://dx.doi.org/10.1590/S0104-42302010000200025"),
-                               new References("Peso Leite",
+                               new Reference("Peso Leite",
                                               "https://conversor-de-medidas.com/"),
                            })
                            };
@@ -53,3 +46,4 @@ namespace CalcLactase.Controllers
         }
     }
 }
+

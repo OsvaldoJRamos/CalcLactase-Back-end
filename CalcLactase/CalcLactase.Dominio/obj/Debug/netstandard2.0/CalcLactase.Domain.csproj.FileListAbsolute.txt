@@ -1,0 +1,8 @@
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\bin\Debug\netstandard2.0\CalcLactase.Domain.deps.json
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\bin\Debug\netstandard2.0\CalcLactase.Domain.dll
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\bin\Debug\netstandard2.0\CalcLactase.Domain.pdb
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\obj\Debug\netstandard2.0\CalcLactase.Domain.AssemblyInfoInputs.cache
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\obj\Debug\netstandard2.0\CalcLactase.Domain.AssemblyInfo.cs
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\obj\Debug\netstandard2.0\CalcLactase.Domain.csproj.CoreCompileInputs.cache
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\obj\Debug\netstandard2.0\CalcLactase.Domain.dll
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Dominio\obj\Debug\netstandard2.0\CalcLactase.Domain.pdb

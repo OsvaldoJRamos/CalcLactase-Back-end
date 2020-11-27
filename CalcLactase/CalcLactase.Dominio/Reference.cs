@@ -1,11 +1,11 @@
-﻿namespace CalcLactase
+﻿namespace CalcLactase.Dominio
 {
-    public class References
+    public class Reference
     {
         public string Name { get; set; }
         public string Url { get; set; }
 
-        public References(string name, string url)
+        public Reference(string name, string url)
         {
             Name = name;
             Url = url;

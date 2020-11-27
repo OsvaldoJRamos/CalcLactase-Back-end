@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CalcLactase.Dominio/1.0.0": {
+        "runtime": {
+          "CalcLactase.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CalcLactase.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
