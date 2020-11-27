@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CalcLactase.Controllers
@@ -17,7 +18,7 @@ namespace CalcLactase.Controllers
         {
             var retorno = new List<Produto>()
             {
-                new Produto(new System.Guid(),
+                new Produto(Guid.NewGuid(),
                             "Leite de vaca integral",
                             "ml",
                             100,
@@ -32,7 +33,7 @@ namespace CalcLactase.Controllers
                                                "https://conversor-de-medidas.com/"),
                             }),
 
-                new Produto(new System.Guid(),
+                new Produto(Guid.NewGuid(),
                            "Leite em pó",
                            "g",
                            100,
