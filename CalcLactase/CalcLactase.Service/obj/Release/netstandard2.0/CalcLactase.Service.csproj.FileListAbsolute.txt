@@ -1,0 +1,14 @@
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\bin\Release\netstandard2.0\CalcLactase.Service.deps.json
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\bin\Release\netstandard2.0\CalcLactase.Service.dll
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\bin\Release\netstandard2.0\CalcLactase.Service.pdb
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\bin\Release\netstandard2.0\CalcLactase.Domain.dll
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\bin\Release\netstandard2.0\CalcLactase.Repository.dll
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\bin\Release\netstandard2.0\CalcLactase.Repository.pdb
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\bin\Release\netstandard2.0\CalcLactase.Domain.pdb
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\obj\Release\netstandard2.0\CalcLactase.Service.csprojAssemblyReference.cache
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\obj\Release\netstandard2.0\CalcLactase.Service.AssemblyInfoInputs.cache
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\obj\Release\netstandard2.0\CalcLactase.Service.AssemblyInfo.cs
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\obj\Release\netstandard2.0\CalcLactase.Service.csproj.CoreCompileInputs.cache
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\obj\Release\netstandard2.0\CalcLactase.Service.csproj.CopyComplete
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\obj\Release\netstandard2.0\CalcLactase.Service.dll
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Service\obj\Release\netstandard2.0\CalcLactase.Service.pdb

@@ -33,5 +33,7 @@ namespace CalcLactase.Dominio
             ImageUrl = imageUrl;
             References = references;
         }
+
+        protected Product() { }
     }
 }

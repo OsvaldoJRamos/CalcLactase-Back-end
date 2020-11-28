@@ -24,6 +24,8 @@
     ".NETCoreApp,Version=v3.1": {
       "CalcLactase/1.0.0": {
         "dependencies": {
+          "CalcLactase.Domain": "1.0.0",
+          "CalcLactase.Service": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -312,6 +314,36 @@
         },
         "compile": {
           "CalcLactase.dll": {}
+        }
+      },
+      "CalcLactase.Domain/1.0.0": {
+        "runtime": {
+          "CalcLactase.Domain.dll": {}
+        },
+        "compile": {
+          "CalcLactase.Domain.dll": {}
+        }
+      },
+      "CalcLactase.Repository/1.0.0": {
+        "dependencies": {
+          "CalcLactase.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CalcLactase.Repository.dll": {}
+        },
+        "compile": {
+          "CalcLactase.Repository.dll": {}
+        }
+      },
+      "CalcLactase.Service/1.0.0": {
+        "dependencies": {
+          "CalcLactase.Repository": "1.0.0"
+        },
+        "runtime": {
+          "CalcLactase.Service.dll": {}
+        },
+        "compile": {
+          "CalcLactase.Service.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2010,6 +2042,21 @@
   },
   "libraries": {
     "CalcLactase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalcLactase.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalcLactase.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CalcLactase.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

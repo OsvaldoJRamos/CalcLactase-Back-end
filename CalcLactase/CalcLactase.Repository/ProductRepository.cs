@@ -7,6 +7,13 @@ namespace CalcLactase.Repository
 {
     public class ProductRepository : IProductRepository
     {
+        private readonly CalcLactaseContext _context;
+
+        public ProductRepository(CalcLactaseContext context)
+        {
+            _context = context;
+        }
+
         public async Task<IEnumerable<Product>> GetAllProducts()
         {
             var retorno = new List<Product>()

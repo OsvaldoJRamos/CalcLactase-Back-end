@@ -6,7 +6,7 @@ D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\
 D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\obj\Debug\netstandard2.0\CalcLactase.Repository.csprojAssemblyReference.cache
 D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\obj\Debug\netstandard2.0\CalcLactase.Repository.AssemblyInfoInputs.cache
 D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\obj\Debug\netstandard2.0\CalcLactase.Repository.AssemblyInfo.cs
-D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\obj\Debug\netstandard2.0\CalcLactase.Repository.csproj.CoreCompileInputs.cache
 D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\obj\Debug\netstandard2.0\CalcLactase.Repository.csproj.CopyComplete
 D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\obj\Debug\netstandard2.0\CalcLactase.Repository.dll
 D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\obj\Debug\netstandard2.0\CalcLactase.Repository.pdb
+D:\Repositorios\Lactose\CalcLactase-Back-end\CalcLactase\CalcLactase.Repository\obj\Debug\netstandard2.0\CalcLactase.Repository.csproj.CoreCompileInputs.cache
