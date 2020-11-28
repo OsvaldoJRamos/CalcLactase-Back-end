@@ -1,5 +1,6 @@
 ﻿using CalcLactase.Dominio;
 using CalcLactase.Repository;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -14,9 +15,14 @@ namespace CalcLactase.Service
             _productRepository = productRepository;
         }
 
-        public Task<IEnumerable<Product>> GetAllProducts()
+        public async Task<List<Product>> GetAll()
         {
-            return _productRepository.GetAllProducts();
+            return await _productRepository.GetAll();
+        }
+
+        public async Task<Product> GetById(Guid id)
+        {
+            return await _productRepository.GetById(id);
         }
     }
 }

@@ -21,7 +21,21 @@ namespace CalcLactase.Controllers
         {
             try
             {
-                var products = await _productService.GetAllProducts();
+                var products = await _productService.GetAll();
+                return new ObjectResult(products);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("{id:Guid}")]
+        public async Task<IActionResult> Get(Guid id)
+        {
+            try
+            {
+                var products = await _productService.GetById(id);
                 return new ObjectResult(products);
             }
             catch (Exception ex)

@@ -10,7 +10,7 @@ namespace CalcLactase.Dominio
         public string DisplayUnit { get; set; }
         public double DisplayUnitValue { get; set; }
         public double Grams { get; set; }
-        public double PercentagemOfLactose { get; set; }
+        public float PercentageOfLactose { get; set; }
         public string ImageUrl { get; set; }
         public IEnumerable<Reference> References { get; set; }
 
@@ -20,7 +20,7 @@ namespace CalcLactase.Dominio
             string displayUnit,
             double displayUnitValue,
             double grams,
-            double percentagemOfLactose,
+            float percentageOfLactose,
             string imageUrl,
             IEnumerable<Reference> references)
         {
@@ -29,7 +29,7 @@ namespace CalcLactase.Dominio
             DisplayUnit = displayUnit;
             DisplayUnitValue = displayUnitValue;
             Grams = grams;
-            PercentagemOfLactose = percentagemOfLactose;
+            PercentageOfLactose = percentageOfLactose;
             ImageUrl = imageUrl;
             References = references;
         }
